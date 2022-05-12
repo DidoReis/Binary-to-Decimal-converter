@@ -83,3 +83,43 @@ input[type='button']
 	font-size: 16px;
 	border-radius: 5px;
 }
+
+@media (max-width: 700px)
+{
+.container
+{
+	display: flex;
+	flex: 1;
+	background: #fff;
+	box-shadow: 8px 7px 50px #000;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	border: none;
+	border-radius: 10px;
+	padding: 50px;
+	width: 65%;
+	margin-top: 8%;
+}
+
+}
+
+@media (max-width: 884px)
+{
+.container
+{
+	display: flex;
+	flex: 1;
+	background: #fff;
+	box-shadow: 8px 7px 50px #000;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	border: none;
+	border-radius: 10px;
+	padding: 50px;
+	width: 65%;
+	margin-top: 8%;
+}
+
+}
